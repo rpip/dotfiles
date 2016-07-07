@@ -20,3 +20,5 @@
 
 ;; (add-hook 'before-save-hook 'delete-trailing-whitespace)
 (add-hook 'before-save-hook 'whitespace-cleanup)
+
+(add-hook 'text-mode-hook 'turn-on-visual-line-mode)
