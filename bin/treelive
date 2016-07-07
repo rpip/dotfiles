@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# live directory watch taken from Jon Britton's talk: https://www.youtube.com/watch?v=P7n6G2IL6eo
+
+DIR=${1:-.git}
+
+SLEEP_TIME=${2:-1}
+
+while true; do
+  clear
+  tree $DIR
+  sleep $SLEEP_TIME
+  done
+done

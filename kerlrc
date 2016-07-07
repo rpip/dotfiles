@@ -1,0 +1,2 @@
+KERL_CONFIGURE_OPTIONS="--enable-m64-build --without-javac"
+KERL_INSTALL_MANPAGES=yes
