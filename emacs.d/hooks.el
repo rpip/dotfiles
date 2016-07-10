@@ -22,3 +22,10 @@
 (add-hook 'before-save-hook 'whitespace-cleanup)
 
 (add-hook 'text-mode-hook 'turn-on-visual-line-mode)
+
+(defun colend-html-to-jinja2 ()
+  (let ((name (buffer-file-name (current-buffer))))
+    (when (string-match "^.*?/octopus/colend/templates.*?" name)
+      (jinja2-mode))))
+
+(add-hook 'find-file-hook 'colend-html-to-jinja2)

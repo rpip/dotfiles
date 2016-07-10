@@ -13,3 +13,4 @@
 (require 'tabbar-config)
 (require 'bodil-ido-config)
 (require 'bodil-terminal-config)
+(require 'mu4e-config)

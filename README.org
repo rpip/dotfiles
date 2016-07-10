@@ -1,1 +1,17 @@
-# dotfiles
+* My personal dotfiles
+
+** TODO
+- Replace Makefile with a bash script
+- Install the following on init:
+  - mbsync
+  - mu
+  - mosh
+  - gpg2
+  - pass
+  - erlang
+  - brew
+  - iterm2
+  - emacs24+
+  - vim
+  - spot
+- Symlink dotfiles on work machine

@@ -12,7 +12,7 @@
  '(column-number-mode t)
  '(custom-safe-themes
    (quote
-    ("2d7e4feac4eeef3f0610bf6b155f613f372b056a2caae30a361947eab5074716" "be50a45342f47158a8d34f54ffecc63f55dbdf66ad672c171c48e9dac56fff52" "6a37be365d1d95fad2f4d185e51928c789ef7a4ccf17e7ca13ad63a8bf5b922f" "9dae95cdbed1505d45322ef8b5aa90ccb6cb59e0ff26fef0b8f411dfc416c552" "c5a044ba03d43a725bd79700087dea813abcb6beb6be08c7eb3303ed90782482" "756597b162f1be60a12dbd52bab71d40d6a2845a3e3c2584c6573ee9c332a66e" default)))
+    ("133222702a3c75d16ea9c50743f66b987a7209fb8b964f2c0938a816a83379a0" "2a5be663818e1e23fd2175cc8dac8a2015dcde6b2e07536712451b14658bbf68" "aab598c4d024d544b4e8b356a95ca693afa9de000b154bd2f86eed68c9e75557" "e87a2bd5abc8448f8676365692e908b709b93f2d3869c42a4371223aab7d9cf8" "b5fe3893c8808466711c1b55bb7e66b9c6aa2a86811783375a43e1beabb1af33" "532769a638787d1196bc22c885e9b85269c3fc650fdecfc45135bb618127034c" "beeb5ac6b65fcccfe434071d4624ff0308b5968bf2f0c01b567d212bcaf66054" "2d7e4feac4eeef3f0610bf6b155f613f372b056a2caae30a361947eab5074716" "be50a45342f47158a8d34f54ffecc63f55dbdf66ad672c171c48e9dac56fff52" "6a37be365d1d95fad2f4d185e51928c789ef7a4ccf17e7ca13ad63a8bf5b922f" "9dae95cdbed1505d45322ef8b5aa90ccb6cb59e0ff26fef0b8f411dfc416c552" "c5a044ba03d43a725bd79700087dea813abcb6beb6be08c7eb3303ed90782482" "756597b162f1be60a12dbd52bab71d40d6a2845a3e3c2584c6573ee9c332a66e" default)))
  '(fill-column 80)
  '(font-use-system-font t)
  '(global-hl-line-mode t)
@@ -45,9 +45,6 @@
 ;; alias 'y' and 'n' to 'yes' or 'no'
 (fset 'yes-or-no-p 'y-or-n-p)
 (defalias 'yes-or-no-p 'y-or-n-p)
-
-;; automaticaly wrap lines
-(setq-default auto-fill-function 'do-auto-fill)
 
 ;; start emacs-server if not running
 (setq server-socket-dir "/tmp/emacs-shared")

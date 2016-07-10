@@ -3,14 +3,18 @@
 (load "custom")
 (load "defuns")
 (load "auto-modes")
-(load "theme")
 (load "hooks")
 (load "config")
 (load "packages")
+(load "theme")
 
 ;; disable menu-bar-mode, tool-bar-mode and scroll-bar-mode
 (dolist (mode '(tool-bar-mode scroll-bar-mode))
   (when (fboundp mode) (funcall mode -1)))
+
+;; use utf-8
+(set-language-environment "UTF-8")
+
 
 (global-company-mode)
 
